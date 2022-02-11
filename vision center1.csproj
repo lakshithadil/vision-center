@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8024B8C4-15D6-43C3-9F67-97325CC35880}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>vision_center1</RootNamespace>
+    <AssemblyName>vision center1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Lakshitha\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A7233CB73D1BE7FD289D287FE0AF3D7FA7595242</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>vision center1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1484.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addorder.Designer.cs">
+      <DependentUpon>addorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addproducts.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="addproducts.Designer.cs">
+      <DependentUpon>addproducts.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit prescriptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit prescriptions.Designer.cs">
+      <DependentUpon>edit prescriptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit producs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit producs.Designer.cs">
+      <DependentUpon>edit producs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit user.Designer.cs">
+      <DependentUpon>edit user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editcustomer.Designer.cs">
+      <DependentUpon>editcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finalinvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finalinvoice.Designer.cs">
+      <DependentUpon>finalinvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="find trans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="find trans.Designer.cs">
+      <DependentUpon>find trans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Freme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Freme.Designer.cs">
+      <DependentUpon>Freme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lense.Designer.cs">
+      <DependentUpon>Lense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportcus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportcus.Designer.cs">
+      <DependentUpon>reportcus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportorder.Designer.cs">
+      <DependentUpon>reportorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reporttrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporttrans.Designer.cs">
+      <DependentUpon>reporttrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reptproducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reptproducts.Designer.cs">
+      <DependentUpon>reptproducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginto.Designer.cs">
+      <DependentUpon>loginto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Orderline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orderline.Designer.cs">
+      <DependentUpon>Orderline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRESCRIPTION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRESCRIPTION.Designer.cs">
+      <DependentUpon>PRESCRIPTION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.Designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction.Designer.cs">
+      <DependentUpon>Transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vision center.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vision center.Designer.cs">
+      <DependentUpon>Vision center.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisionCenterDataSet.cs">
+      <DependentUpon>VisionCenterDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VisionCenterDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VisionCenterDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <EmbeddedResource Include="addorder.resx">
+      <DependentUpon>addorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addproducts.resx">
+      <DependentUpon>addproducts.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit prescriptions.resx">
+      <DependentUpon>edit prescriptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit producs.resx">
+      <DependentUpon>edit producs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit user.resx">
+      <DependentUpon>edit user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editcustomer.resx">
+      <DependentUpon>editcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finalinvoice.resx">
+      <DependentUpon>finalinvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="find trans.resx">
+      <DependentUpon>find trans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Freme.resx">
+      <DependentUpon>Freme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lense.resx">
+      <DependentUpon>Lense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportcus.resx">
+      <DependentUpon>reportcus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportorder.resx">
+      <DependentUpon>reportorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporttrans.resx">
+      <DependentUpon>reporttrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reptproducts.resx">
+      <DependentUpon>reptproducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginto.resx">
+      <DependentUpon>loginto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orderline.resx">
+      <DependentUpon>Orderline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRESCRIPTION.resx">
+      <DependentUpon>PRESCRIPTION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction.resx">
+      <DependentUpon>Transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vision center.resx">
+      <DependentUpon>Vision center.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="vision center1_TemporaryKey.pfx" />
+    <None Include="VisionCenterDataSet.xsc">
+      <DependentUpon>VisionCenterDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="VisionCenterDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VisionCenterDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="VisionCenterDataSet.xss">
+      <DependentUpon>VisionCenterDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_32px.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\icons8_hide_32px.png" />
+    <None Include="Resources\icons8_Close_32px.png" />
+    <None Include="Resources\icons8_Done_32px.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
