@@ -19,7 +19,7 @@ namespace vision_center1
             InitializeComponent();
             textBox2.PasswordChar = '*';
            // textBox2.PasswordChar = default;
-            
+           //this is from me 
             
         }
 
