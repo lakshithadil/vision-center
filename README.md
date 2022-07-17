@@ -1,2 +1,2 @@
 # vision-center
-application for vision center optical service
+C#.NET Desktop application for vision center optical service
